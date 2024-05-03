@@ -8,11 +8,11 @@
   style="display: inline-block; margin: 0 auto; max-width: 200px"></td>
 </tr></table>
 
-## Hands-On workshop to build a custom application using LangChain and Vector Databases
-This repository contains instructions and code for building custom applications using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during the workshop.
+## Hands-On workshop to build a custom application using LangChain, RAG and Vector Databases
+This repository contains instructions and code for building custom applications using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during this workshop.
 
 ### What are we building?
-A Q and A app that can answer your questions around "Vegan" food from very famous Vegan Food bloggers who write here: https://www.loveandlemons.com/
+A Q and A app that can answer your questions around Vegan Food from very famous vegan food bloggers who publish their recipes here: https://www.loveandlemons.com/
 
 ### Goals
 * Review core LLM concepts
