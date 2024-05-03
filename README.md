@@ -1,4 +1,4 @@
-# Generative AI for advanced use cases – Lets go beyond the chatbots.
+# Generative AI for advanced use cases – Lets go beyond the chatbots
 ### Women In Tech DC; May 15-16, 2024
 <table><tr>
   <td><img
@@ -8,8 +8,11 @@
   style="display: inline-block; margin: 0 auto; max-width: 200px"></td>
 </tr></table>
 
-## Hands-On workshop to build custom application using LangChain and Vector Databases
+## Hands-On workshop to build a custom application using LangChain and Vector Databases
 This repository contains instructions and code for building custom applications using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during the workshop.
+
+### What are we building?
+A Q and A app that can answer your questions around "Vegan" food from very famous Vegan Food bloggers who write here: https://www.loveandlemons.com/
 
 ### Goals
 * Review core LLM concepts
@@ -26,6 +29,7 @@ This repository contains instructions and code for building custom applications 
 ### We will be using following tools and resources
 * Our choice of programming language -  [Python 3.8](https://www.python.org/downloads/release/python-380/)
 * Quick and elegant app builder - [Streamlit](https://streamlit.io/)
+* Langchain Open Source Python Library - [LangChain](https://python.langchain.com/docs/get_started/introduction/)
 * Our Large Language Model of choice - [OperAI API] (https://openai.com/api)
 * I use [Visual Studio Code](https://code.visualstudio.com/download) for coding but you could use any text editor as well
 
