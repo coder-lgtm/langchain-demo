@@ -12,7 +12,7 @@
 This repository contains instructions and code for building custom applications using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during this workshop.
 
 ### What are we building?
-A Q and A app that can answer your questions around Vegan Food from very famous vegan food bloggers who publish their recipes here: https://www.loveandlemons.com/
+A Q and A app that can share recipes with you from two books that we have downloaded from the internet. Then, you would be able to create YouTube video script using the traditional LLM as the second chain of operations.
 
 ### Goals
 * Review core LLM concepts
