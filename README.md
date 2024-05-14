@@ -31,6 +31,7 @@ A Q and A app that can share recipes with you from two books that we have downlo
 * Quick and elegant app builder - [Streamlit](https://streamlit.io/)
 * Langchain Open Source Python Library - [LangChain](https://python.langchain.com/docs/get_started/introduction/)
 * Our Large Language Model of choice - [OperAI API] (https://openai.com/api)
+* Vector Database - [Chroma DB] (https://www.trychroma.com/)
 * I use [Visual Studio Code](https://code.visualstudio.com/download) for coding but you could use any text editor as well
 
 ### Setup instructions
@@ -49,19 +50,21 @@ A Q and A app that can share recipes with you from two books that we have downlo
 - [ ] Navigate to langchain-demo/app directory and run the following to install dependencies using the requirements.txt <br>
       If you want to run this app locally, you will need to install streamlit, langchain and other packages. Following virtual environment will do 
       just that. <br>
-      ```python3 -m venv llmlangchain_venv``` <br><br>
-      ```source llmlangchain_venv/bin/activate``` <br><br>
-      
+      ```cd langchain-demo``` <br><br>
+      ```python -m venv env``` <br><br>
+      ```source ./env/bin/activate``` <br><br>
+      ```pip install -r ./app/requirements.txt``` <br><br>
 - [ ] Create an account on [OpenAI](https://openai.com/api). You should receive an API key. You will need this for this workshop. Choose any pricing tier that works for you. 
 
 ## Workshop Agenda
 
 - [ ] Overview of Streamlit 
-- [ ] Go over the Demo App code
+- [ ] Build the App step by step
 - [ ] Execute the code and launch the Streamlit app - tweak the different controls to see the variations in the app behavior
 - [ ] Discuss the process of Fine Tuning by adding more "chains" of relevance
  
 ### References and useful links
 * https://python.langchain.com/docs/use_cases
 * https://www.trychroma.com/
-* Blog used for this app - https://www.loveandlemons.com/
+* Two free Recipe books that I downloaded and added to /docs directory
+  
