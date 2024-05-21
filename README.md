@@ -9,7 +9,7 @@
 </tr></table>
 
 ## Hands-On workshop to build a custom application using LangChain, RAG and Vector Databases
-This repository contains instructions and code for building custom applications using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during this workshop.
+This repository contains instructions and code for building a custom application using Langchain, and contextual documents for the Q&A app. We will complete the portions of this App live during this workshop.
 
 ### What are we building?
 A Q and A app that can share recipes with you from two books that we have downloaded from the internet. Then, you would be able to create YouTube video script using the traditional LLM as the second chain of operations.
@@ -35,7 +35,7 @@ A Q and A app that can share recipes with you from two books that we have downlo
 * I use [Visual Studio Code](https://code.visualstudio.com/download) for coding but you could use any text editor as well
 
 ### Setup instructions
-- [ ] If you are using Windows, I recommend using [Anaconda](https://www.anaconda.com/download) for the ease of installation. Create environment in Anaconda, launch a command propmpt and run ```pip3 install -r ./requirements.txt``` <br>
+- [ ] If you are using Windows, I recommend using [Anaconda](https://www.anaconda.com/download) for the ease of installation. Create environment in Anaconda, launch a command propmpt and run ```pip3 install -r ./app/requirements.txt``` <br>
 - [ ] For Mac, Install Homebrew if you don't have it. <br>
       Go to a terminal and run ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
 - [ ] Install python 3.8 using homebrew <br>
@@ -60,11 +60,11 @@ A Q and A app that can share recipes with you from two books that we have downlo
 
 - [ ] Overview of Streamlit 
 - [ ] Build the App step by step
-- [ ] Execute the code and launch the Streamlit app - tweak the different controls to see the variations in the app behavior
+- [ ] Execute the code and launch the Streamlit app - tweak different controls to see the variations in the app behavior
 - [ ] Discuss the process of Fine Tuning by adding more "chains" of relevance
  
 ### References and useful links
 * https://python.langchain.com/docs/use_cases
 * https://www.trychroma.com/
-* Two free Recipe books that I downloaded and added to /docs directory
+* Two free Recipe books that I downloaded and added to ./docs directory
   
